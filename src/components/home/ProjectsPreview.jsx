@@ -1,21 +1,23 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const projects = [
     {
         title: 'Luxury Villa Construction',
         category: 'Residential',
-        image: '/projects/project-1.jpeg',
+        image: `${baseUrl}projects/project-1.jpeg`,
     },
     {
         title: 'Seaside Villa Project',
         category: 'Villa',
-        image: '/projects/project-4.jpeg',
+        image: `${baseUrl}projects/project-4.jpeg`,
     },
     {
         title: 'Commercial Site Dev',
         category: 'Commercial',
-        image: '/projects/project-6.jpeg',
+        image: `${baseUrl}projects/project-6.jpeg`,
     }
 ];
 

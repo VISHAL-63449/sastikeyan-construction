@@ -11,15 +11,17 @@ import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const allProjects = [
-    { id: 1, title: 'Luxury Villa Construction', category: 'Residential', location: 'OMR, Chennai', area: '4500 sq.ft', budget: '₹1.2 Cr+', date: 'Ongoing', image: '/projects/project-1.jpeg' },
-    { id: 2, title: 'Modern Interior Work', category: 'Interior', location: 'T. Nagar, Chennai', area: '2000 sq.ft', budget: '₹35 Lakhs', date: 'Recent', image: '/projects/project-2.jpeg' },
-    { id: 3, title: 'Premium Apartment', category: 'Residential', location: 'Anna Nagar, Chennai', area: '1200 sq.ft', budget: '₹15 Lakhs', date: 'Completed', image: '/projects/project-3.jpeg' },
-    { id: 4, title: 'Seaside Villa Project', category: 'Villa', location: 'ECR, Chennai', area: '6000 sq.ft', budget: '₹3.2 Cr+', date: 'Ongoing', image: '/projects/project-4.jpeg' },
-    { id: 5, title: 'Structural Renovation', category: 'Renovation', location: 'Mylapore, Chennai', area: '3200 sq.ft', budget: '₹85 Lakhs', date: 'Completed', image: '/projects/project-5.jpeg' },
-    { id: 6, title: 'Commercial Site Dev', category: 'Commercial', location: 'Guindy, Chennai', area: '8500 sq.ft', budget: '₹2.1 Cr+', date: 'Recent', image: '/projects/project-6.jpeg' },
-    { id: 7, title: 'Smart Home Build', category: 'Residential', location: 'Kelambakkam, Chennai', area: '3000 sq.ft', budget: '₹95 Lakhs', date: 'Ongoing', image: '/projects/project-7.jpeg' },
-    { id: 8, title: 'Bespoke Architecture', category: 'Villa', location: 'Velachery, Chennai', area: '4800 sq.ft', budget: '₹1.8 Cr+', date: 'Completed', image: '/projects/project-8.jpeg' },
+    { id: 1, title: 'Luxury Villa Construction', category: 'Residential', location: 'OMR, Chennai', area: '4500 sq.ft', budget: '₹1.2 Cr+', date: 'Ongoing', image: `${baseUrl}projects/project-1.jpeg` },
+    { id: 2, title: 'Modern Interior Work', category: 'Interior', location: 'T. Nagar, Chennai', area: '2000 sq.ft', budget: '₹35 Lakhs', date: 'Recent', image: `${baseUrl}projects/project-2.jpeg` },
+    { id: 3, title: 'Premium Apartment', category: 'Residential', location: 'Anna Nagar, Chennai', area: '1200 sq.ft', budget: '₹15 Lakhs', date: 'Completed', image: `${baseUrl}projects/project-3.jpeg` },
+    { id: 4, title: 'Seaside Villa Project', category: 'Villa', location: 'ECR, Chennai', area: '6000 sq.ft', budget: '₹3.2 Cr+', date: 'Ongoing', image: `${baseUrl}projects/project-4.jpeg` },
+    { id: 5, title: 'Structural Renovation', category: 'Renovation', location: 'Mylapore, Chennai', area: '3200 sq.ft', budget: '₹85 Lakhs', date: 'Completed', image: `${baseUrl}projects/project-5.jpeg` },
+    { id: 6, title: 'Commercial Site Dev', category: 'Commercial', location: 'Guindy, Chennai', area: '8500 sq.ft', budget: '₹2.1 Cr+', date: 'Recent', image: `${baseUrl}projects/project-6.jpeg` },
+    { id: 7, title: 'Smart Home Build', category: 'Residential', location: 'Kelambakkam, Chennai', area: '3000 sq.ft', budget: '₹95 Lakhs', date: 'Ongoing', image: `${baseUrl}projects/project-7.jpeg` },
+    { id: 8, title: 'Bespoke Architecture', category: 'Villa', location: 'Velachery, Chennai', area: '4800 sq.ft', budget: '₹1.8 Cr+', date: 'Completed', image: `${baseUrl}projects/project-8.jpeg` },
 ];
 
 const categories = ['All', 'Residential', 'Commercial', 'Villa', 'Renovation', 'Interior'];

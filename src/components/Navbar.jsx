@@ -31,13 +31,15 @@ const Navbar = () => {
         setIsOpen(false);
     }, [location]);
 
+    const baseUrl = import.meta.env.BASE_URL;
+
     return (
         <>
             <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-white py-5'}`}>
                 <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-3 z-50">
-                        <img src="/logo.jpeg" alt="Sastikeyan Construction Logo" className="h-12 md:h-16 object-contain" />
+                        <img src={`${baseUrl}logo.jpeg`} alt="Sastikeyan Construction Logo" className="h-12 md:h-16 object-contain" />
                         <div>
                             <h1 className="text-xl md:text-2xl font-headings font-bold text-primary leading-tight">Sastikeyan</h1>
                             <p className="text-xs text-gray-500 uppercase tracking-widest leading-none">Construction</p>

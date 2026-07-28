@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
+    const baseUrl = import.meta.env.BASE_URL;
+
     return (
         <footer className="bg-[#1e293b] text-gray-300 pt-16 pb-8">
             <div className="container mx-auto px-4 md:px-8">
@@ -10,7 +12,7 @@ const Footer = () => {
                     {/* Company Info */}
                     <div>
                         <Link to="/" className="flex items-center gap-3 mb-6">
-                            <img src="/logo.jpeg" alt="Sastikeyan Construction Logo" className="h-14 md:h-16 object-contain rounded-lg" />
+                            <img src={`${baseUrl}logo.jpeg`} alt="Sastikeyan Construction Logo" className="h-14 md:h-16 object-contain rounded-lg" />
                             <div>
                                 <h2 className="text-xl font-headings font-bold text-white leading-tight">Sastikeyan</h2>
                                 <p className="text-xs text-secondary uppercase tracking-widest leading-none">Construction</p>

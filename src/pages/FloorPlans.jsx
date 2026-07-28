@@ -1,13 +1,15 @@
 import { useEffect } from 'react';
 import { FaBed, FaBath, FaCar, FaCouch, FaUtensils, FaDownload } from 'react-icons/fa';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const plans = [
-    { id: 1, title: '600 Sq Ft Compact', type: 'Apartment', beds: 1, baths: 1, parking: 0, living: 1, kitchen: 1, image: '/projects/project-7.jpeg' },
-    { id: 2, title: '800 Sq Ft Family', type: 'Apartment', beds: 2, baths: 2, parking: 1, living: 1, kitchen: 1, image: '/projects/project-2.jpeg' },
-    { id: 3, title: '1200 Sq Ft Premium', type: 'Apartment', beds: 3, baths: 2, parking: 1, living: 1, kitchen: 1, image: '/services/Architecture Planning.png' },
-    { id: 4, title: 'Standard Duplex', type: 'Duplex', beds: 3, baths: 3, parking: 2, living: 2, kitchen: 1, image: '/projects/project-4.jpeg' },
-    { id: 5, title: 'Luxury Villa', type: 'Villa', beds: 4, baths: 4, parking: 2, living: 2, kitchen: 2, image: '/projects/project-8.jpeg' },
-    { id: 6, title: '1500 Sq Ft Estate', type: 'House', beds: 4, baths: 3, parking: 2, living: 2, kitchen: 1, image: '/projects/project-5.jpeg' },
+    { id: 1, title: '600 Sq Ft Compact', type: 'Apartment', beds: 1, baths: 1, parking: 0, living: 1, kitchen: 1, image: `${baseUrl}projects/project-7.jpeg` },
+    { id: 2, title: '800 Sq Ft Family', type: 'Apartment', beds: 2, baths: 2, parking: 1, living: 1, kitchen: 1, image: `${baseUrl}projects/project-2.jpeg` },
+    { id: 3, title: '1200 Sq Ft Premium', type: 'Apartment', beds: 3, baths: 2, parking: 1, living: 1, kitchen: 1, image: `${baseUrl}services/Architecture Planning.png` },
+    { id: 4, title: 'Standard Duplex', type: 'Duplex', beds: 3, baths: 3, parking: 2, living: 2, kitchen: 1, image: `${baseUrl}projects/project-4.jpeg` },
+    { id: 5, title: 'Luxury Villa', type: 'Villa', beds: 4, baths: 4, parking: 2, living: 2, kitchen: 2, image: `${baseUrl}projects/project-8.jpeg` },
+    { id: 6, title: '1500 Sq Ft Estate', type: 'House', beds: 4, baths: 3, parking: 2, living: 2, kitchen: 1, image: `${baseUrl}projects/project-5.jpeg` },
 ];
 
 const FloorPlans = () => {

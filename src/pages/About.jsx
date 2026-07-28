@@ -5,6 +5,8 @@ const About = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <div className="py-20 lg:py-32 container mx-auto px-4 md:px-8">
       <h1 className="text-4xl md:text-5xl font-headings font-bold text-primary mb-8 text-center">
@@ -20,7 +22,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <img
-            src="/about-mission.jpeg"
+            src={`${baseUrl}about-mission.jpeg`}
             alt="Construction teamwork"
             className="rounded-2xl shadow-xl w-full h-auto"
           />
@@ -54,7 +56,7 @@ const About = () => {
         <div className="w-full md:w-1/3">
           <div className="aspect-square rounded-full overflow-hidden border-8 border-white shadow-xl mx-auto max-w-xs relative bg-white">
             <img
-              src="/owner.jpeg"
+              src={`${baseUrl}owner.jpeg`}
               alt="GP Karthik"
               className="w-full h-full object-cover"
             />

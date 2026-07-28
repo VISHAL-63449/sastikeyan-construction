@@ -2,13 +2,15 @@ import { useEffect, useState } from 'react';
 import { FaCheck, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { LuHouse, LuBuilding2, LuHardHat, LuPaintRoller, LuCompass, LuWrench } from 'react-icons/lu';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const services = [
-    { id: 1, title: 'House Construction', icon: <LuHouse className="stroke-[1.5]" />, img: '/services/home construction.jpeg', desc: 'Custom residential homes built with premium materials and modern techniques.' },
-    { id: 2, title: 'Commercial Buildings', icon: <LuBuilding2 className="stroke-[1.5]" />, img: '/services/Commercial Buildings.png', desc: 'Expertly constructed office spaces, malls, and commercial complexes.' },
-    { id: 3, title: 'Renovation', icon: <LuHardHat className="stroke-[1.5]" />, img: '/services/Renovation.png', desc: 'Breathing new life into old structures with comprehensive renovation.' },
-    { id: 4, title: 'Interior Design', icon: <LuPaintRoller className="stroke-[1.5]" />, img: '/services/interior image.jpeg', desc: 'Curated interiors that harmonize aesthetics with daily functionality.' },
-    { id: 5, title: 'Architecture Planning', icon: <LuCompass className="stroke-[1.5]" />, img: '/services/Architecture Planning.png', desc: 'Precision blueprints and modeling to visualize your dream structure.' },
-    { id: 6, title: 'Structural Engineering', icon: <LuWrench className="stroke-[1.5]" />, img: '/services/Structural Engineering.png', desc: 'Ensuring absolute stability and safety in every construction project.' },
+    { id: 1, title: 'House Construction', icon: <LuHouse className="stroke-[1.5]" />, img: `${baseUrl}services/home construction.jpeg`, desc: 'Custom residential homes built with premium materials and modern techniques.' },
+    { id: 2, title: 'Commercial Buildings', icon: <LuBuilding2 className="stroke-[1.5]" />, img: `${baseUrl}services/Commercial Buildings.png`, desc: 'Expertly constructed office spaces, malls, and commercial complexes.' },
+    { id: 3, title: 'Renovation', icon: <LuHardHat className="stroke-[1.5]" />, img: `${baseUrl}services/Renovation.png`, desc: 'Breathing new life into old structures with comprehensive renovation.' },
+    { id: 4, title: 'Interior Design', icon: <LuPaintRoller className="stroke-[1.5]" />, img: `${baseUrl}services/interior image.jpeg`, desc: 'Curated interiors that harmonize aesthetics with daily functionality.' },
+    { id: 5, title: 'Architecture Planning', icon: <LuCompass className="stroke-[1.5]" />, img: `${baseUrl}services/Architecture Planning.png`, desc: 'Precision blueprints and modeling to visualize your dream structure.' },
+    { id: 6, title: 'Structural Engineering', icon: <LuWrench className="stroke-[1.5]" />, img: `${baseUrl}services/Structural Engineering.png`, desc: 'Ensuring absolute stability and safety in every construction project.' },
 ];
 
 const faqs = [

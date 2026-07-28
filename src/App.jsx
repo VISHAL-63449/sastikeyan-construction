@@ -32,7 +32,7 @@ class ErrorBoundary extends React.Component {
 function App() {
   return (
     <ErrorBoundary>
-      <Router>
+      <Router basename="/construction/">
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
