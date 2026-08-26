@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vishal9932-maker.github.io/construction/",
+  "homepage": "https://VISHAL-63449.github.io/sastikeyan-construction/",
   "scripts": {
     "dev": "vite",
     "presitemap": "node scripts/generate-sitemap.js",

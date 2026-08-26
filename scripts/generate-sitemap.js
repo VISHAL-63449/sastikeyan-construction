@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = join(__dirname, '..', 'public');
-const SITE_URL = 'https://vishal9932-maker.github.io/construction';
+const SITE_URL = 'https://VISHAL-63449.github.io/sastikeyan-construction';
 const TODAY = new Date().toISOString().split('T')[0];
 
 const pages = [
@@ -182,7 +182,7 @@ Sitemap: ${SITE_URL}/projects-sitemap.xml
 Crawl-delay: 10
 
 # Host directive for Bing / Yandex
-Host: https://vishal9932-maker.github.io
+Host: https://VISHAL-63449.github.io
 
 # AI search crawlers - allow full indexing
 User-agent: GPTBot
