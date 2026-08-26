@@ -1,0 +1,35 @@
+# robots.txt for Sastikeyan Interior & SK Construction
+# Website: https://VISHAL-63449.github.io/sastikeyan-construction/
+# Designed & Developed by Vishal
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/sitemap.xml
+Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/image-sitemap.xml
+Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/pages-sitemap.xml
+Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/services-sitemap.xml
+Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/projects-sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 10
+
+# Host directive for Bing / Yandex
+Host: https://VISHAL-63449.github.io
+
+# AI search crawlers - allow full indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
