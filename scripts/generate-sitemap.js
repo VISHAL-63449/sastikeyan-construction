@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 // Define the root URL of the website
-const domain = 'https://sastikeyan-construction.vercel.app';
+const domain = 'https://construction.sastikeyaninterior.in';
 
 // List of all the routes in the React application
 const routes = [

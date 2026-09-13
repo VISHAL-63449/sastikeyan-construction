@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://VISHAL-63449.github.io/sastikeyan-construction/",
+  "homepage": "https://construction.sastikeyaninterior.in/",
   "scripts": {
     "dev": "vite",
     "sitemap": "node scripts/generate-sitemap.js",

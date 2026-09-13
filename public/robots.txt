@@ -5,7 +5,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sastikeyan-construction.vercel.app/sitemap.xml
+Sitemap: https://construction.sastikeyaninterior.in/sitemap.xml
 
 
 # Crawl-delay for polite crawling
