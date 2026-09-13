@@ -6,6 +6,7 @@
   "homepage": "https://VISHAL-63449.github.io/sastikeyan-construction/",
   "scripts": {
     "dev": "vite",
+    "sitemap": "node scripts/generate-sitemap.js",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
