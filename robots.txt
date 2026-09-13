@@ -5,12 +5,6 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/sitemap.xml
-Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/image-sitemap.xml
-Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/pages-sitemap.xml
-Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/services-sitemap.xml
-Sitemap: https://VISHAL-63449.github.io/sastikeyan-construction/projects-sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 10
