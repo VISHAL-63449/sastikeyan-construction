@@ -8,9 +8,8 @@ const links = [
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
     { name: 'Projects', path: '/projects' },
-    { name: 'Floor Plans', path: '/floor-plans' },
     { name: 'Contact', path: '/contact' },
-    { name: 'SK Interior', path: 'https://vishal9932-maker.github.io/sk-interior/', external: true },
+    { name: 'SK Interior', path: 'https://www.sastikeyaninterior.in/', external: true },
 ];
 
 const Navbar = () => {

@@ -15,16 +15,16 @@ const baseUrl = import.meta.env.BASE_URL;
 
 const allProjects = [
     { id: 1, title: 'Luxury Villa Construction', category: 'Residential', location: 'OMR, Chennai', area: '4500 sq.ft', date: 'Ongoing', image: `${baseUrl}projects/project-1.jpeg` },
-    { id: 2, title: 'Modern Interior Work', category: 'Interior', location: 'T. Nagar, Chennai', area: '2000 sq.ft', date: 'Recent', image: `${baseUrl}projects/project-2.jpeg` },
-    { id: 3, title: 'Premium Apartment', category: 'Residential', location: 'Anna Nagar, Chennai', area: '1200 sq.ft', date: 'Completed', image: `${baseUrl}projects/project-3.jpeg` },
+    { id: 2, title: 'Modern Home Construction', category: 'Residential', location: 'T. Nagar, Chennai', area: '2000 sq.ft', date: 'Recent', image: `${baseUrl}projects/my-project.png` },
+    { id: 3, title: 'Premium Villa Build', category: 'Villa', location: 'Anna Nagar, Chennai', area: '1200 sq.ft', date: 'Completed', image: `${baseUrl}projects/project-3.jpeg` },
     { id: 4, title: 'Seaside Villa Project', category: 'Villa', location: 'ECR, Chennai', area: '6000 sq.ft', date: 'Ongoing', image: `${baseUrl}projects/project-4.jpeg` },
-    { id: 5, title: 'Structural Renovation', category: 'Renovation', location: 'Mylapore, Chennai', area: '3200 sq.ft', date: 'Completed', image: `${baseUrl}projects/project-5.jpeg` },
-    { id: 6, title: 'Commercial Site Dev', category: 'Commercial', location: 'Guindy, Chennai', area: '8500 sq.ft', date: 'Recent', image: `${baseUrl}projects/project-6.jpeg` },
+    { id: 5, title: 'Ultra-Modern House Build', category: 'Residential', location: 'Mylapore, Chennai', area: '3200 sq.ft', date: 'Completed', image: `${baseUrl}projects/project-5.jpeg` },
+    { id: 6, title: 'Contemporary Residence', category: 'Residential', location: 'Guindy, Chennai', area: '8500 sq.ft', date: 'Recent', image: `${baseUrl}projects/project-6.jpeg` },
     { id: 7, title: 'Smart Home Build', category: 'Residential', location: 'Kelambakkam, Chennai', area: '3000 sq.ft', date: 'Ongoing', image: `${baseUrl}projects/project-7.jpeg` },
     { id: 8, title: 'Bespoke Architecture', category: 'Villa', location: 'Velachery, Chennai', area: '4800 sq.ft', date: 'Completed', image: `${baseUrl}projects/project-8.jpeg` },
 ];
 
-const categories = ['All', 'Residential', 'Commercial', 'Villa', 'Renovation', 'Interior'];
+const categories = ['All', 'Residential', 'Villa'];
 
 const Projects = () => {
     const [filter, setFilter] = useState('All');
@@ -48,7 +48,7 @@ const Projects = () => {
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <p className="text-secondary font-bold uppercase tracking-widest text-sm mb-2">Our Portfolio</p>
                     <h1 className="text-4xl md:text-5xl font-headings font-bold text-primary mb-4">Featured Projects</h1>
-                    <p className="text-gray-600">Explore our recent projects spanning residential, commercial, and interior design domains.</p>
+                    <p className="text-gray-600">Explore our recent portfolio of premium residential homes and luxury villa constructions.</p>
                 </div>
 
                 {/* Filter */}

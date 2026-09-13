@@ -56,9 +56,9 @@ const stats = [
 
 const Stats = () => {
     return (
-        <section className="bg-primary text-white py-16 -mt-10 relative z-20 mx-4 md:mx-auto max-w-6xl rounded-2xl shadow-2xl">
-            <div className="container mx-auto px-4">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="container mx-auto px-4 md:px-8 relative z-20 -mt-10">
+            <section className="bg-primary text-white py-16 rounded-2xl shadow-2xl w-full">
+                <div className="flex flex-wrap justify-center md:justify-between lg:justify-evenly gap-8 md:gap-4 px-4 md:px-8">
                     {stats.map((stat, idx) => (
                         <div key={idx} className="flex flex-col items-center">
                             <h3 className="text-4xl md:text-5xl font-headings font-bold text-secondary mb-2">
@@ -68,8 +68,8 @@ const Stats = () => {
                         </div>
                     ))}
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 };
 

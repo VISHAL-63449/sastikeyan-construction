@@ -15,8 +15,8 @@ const projects = [
         image: `${baseUrl}projects/project-4.jpeg`,
     },
     {
-        title: 'Commercial Site Dev',
-        category: 'Commercial',
+        title: 'Contemporary Residence',
+        category: 'Residential',
         image: `${baseUrl}projects/project-6.jpeg`,
     }
 ];
