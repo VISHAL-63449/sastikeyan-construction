@@ -4,7 +4,7 @@ import ServicesPreview from '../components/home/ServicesPreview';
 import ProjectsPreview from '../components/home/ProjectsPreview';
 import Stats from '../components/home/Stats';
 import Testimonials from '../components/home/Testimonials';
-import CostEstimator from '../components/home/CostEstimator';
+
 import CTA from '../components/home/CTA';
 
 const Home = () => {
@@ -18,7 +18,6 @@ const Home = () => {
             <Stats />
             <ServicesPreview />
             <ProjectsPreview />
-            <CostEstimator />
             <Testimonials />
             <CTA />
         </>
